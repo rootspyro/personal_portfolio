@@ -2,3 +2,4 @@ node_modules/*
 html-templates/*
 dist/*
 skills.json
+package-lock.json
