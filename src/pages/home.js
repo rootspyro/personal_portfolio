@@ -1,6 +1,7 @@
 import profileimg from '../img/Perfil-final.png'
 import background from '../img/homeBack.jpg'
 import face from '../img/Face.jpg'
+import skills from '../img/skills.png'
 const Home = () => {
 	const view = `
 
@@ -81,7 +82,7 @@ const Home = () => {
 						</p>
 					</div>
 					<div class="skills-img">
-						<img href="#" alt="screenshot de codigo en json">
+						<img src="${skills}" alt="screenshot de codigo en json">
 					</div>
 				</div>
 			</div>
