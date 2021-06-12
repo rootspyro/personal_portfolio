@@ -1,0 +1,272 @@
+:root{
+	--dark: #1B1B1B;
+	--dark-gray: #242424;
+	--light-gray: #c6c6c6;
+	--orange: #F27B2C;
+;
+	--font:'Roboto', sans-serif;
+}
+
+* {
+	margin: 0%;	
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+
+body {
+	font-size: 1.6rem;
+	margin: 0%;
+	padding: 0%;
+	background-color: var(--dark);
+	color: var(--light-gray);
+	font-family: var(--font), sans-serif;
+	outline: none;
+}
+
+.orange {
+	color: var(--orange);
+}
+
+.terminal-user {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+/*  HEADER  */
+
+header {
+	margin: 0%;
+	padding: 0%;
+	background-color: rgb(27, 27 , 27, 0.9);
+	z-index: 100;
+	width: 100vw;
+	position: fixed;
+	top:0;
+}
+
+.burger-menu {
+	background: none;
+	color: var(--light-gray);
+	border: none;
+	font-size: 2rem;
+	margin: 15px;
+	outline: none;
+}
+
+nav > p {
+	display: none;
+}
+
+nav {
+	display: none;
+	padding: 0%;
+}
+
+nav.active{
+	display: block;
+}
+
+.nav-menu {
+	list-style: none;
+}
+
+.nav-menu-item {
+	margin: 0;
+	padding: 15px;
+}
+
+.nav-menu-item a {
+	color: var(--light-gray);
+	text-decoration: none;
+}
+
+
+/* Home */
+
+main {
+	z-index: 1;
+}
+
+.Home {
+	margin-top: 0%;
+	padding-top: 90px;
+	padding-bottom: 45px;
+	/*height: 100vh;*/
+}
+
+.terminal {
+	box-sizing: border-box;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 20px;
+	background-color: rgb(48,48,48,0.9);
+	border-radius: 25px;
+	box-shadow: 4px 4px 5px var(--dark-gray);
+}
+
+.terminal-head {
+	display: flex;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.terminal-head-user{
+	width: 50%;
+	text-align: left;
+}
+
+.terminal-head-menu{
+	width: 50%;
+	text-align: right;
+}
+
+.terminal-body {
+	text-align: center;
+}
+
+h1.presentation-title {
+	margin-top: 60px;
+	font-size: 2.3rem;
+} 
+
+h3.presentation-subtitle {
+	margin-top: 15px;
+	font-size: 1.8rem;
+}
+
+img.presentation-img {
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	border: 2px solid var(--orange);
+}
+
+.terminal-body > a.meetme-btn {
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	width: 50%;
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: var(--light-gray);
+	padding: 15px;
+	background-color: var(--dark-gray);
+	border-radius: 15px;
+	display: block;
+}
+
+a.meetme-btn:hover {
+	background-color: var(--orange);
+	color: var(--light-gray);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.About {
+	box-sizing: border-box;
+	padding: 20px 15px 50px 15px;
+}
+
+.about-neofetch{
+	margin-top: 50px;
+}
+
+img.about-neofetch-img {
+	width: 210px;
+	height: 210px;
+	display: block;
+	margin: auto;
+	border-radius: 25px;
+	border: var(--orange) solid 2px;
+}
+
+tt.about-neofetch-info {
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 1.5rem;
+}
+
+.about-story {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.about-story p {
+	text-align: left;
+}
+
+.about-story a {
+	margin-top: 30px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 300;
+	color: var(--light-gray);
+}
+
+.about-story a:hover {
+	text-decoration: underline;
+	color: var(--orange);
+	transition: all ease 400ms;
+}
+
+.Skills {
+	background-color: var(--dark-gray);
+	box-sizing: border-box;	
+	padding: 20px 15px 50px 15px;
+}
+
+.Skills > p {
+	margin-bottom: 40px;
+}
+.skills-info {
+	margin-top: 20px;
+}
+
+.skills-info > div {
+	margin-top: 25px ;
+	padding: 20px;
+}
+
+.skills-backend , .skills-frontend {
+	/*border: var(--orange) 1px solid;*/
+	margin-left:5% ;
+	margin-right: 5%;
+	border-radius: 25px;
+	background-color: #353535;
+	box-shadow: var(--dark) 5px 5px 6px;
+}
+
+.skills-frontend-title, .skills-backend-title {
+	font-size: 1.6rem;	
+	margin-bottom: 15px;
+}
+
+.skills-img {
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.skills-img img{
+	padding: 0%;
+	margin: 0%;
+	border: var(--orange) solid 1px;	
+	border-radius: 25px;
+	min-width: 280px;
+	max-width: 400px;
+	max-height: 410px;
+	box-shadow: var(--dark) 5px 5px 6px;
+
+}
