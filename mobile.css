@@ -194,7 +194,7 @@ img.about-neofetch-img {
 
 tt.about-neofetch-info {
 	display: inline-block;
-	margin-top: 25px;
+	margin-top: 40px;
 	font-size: 1.5rem;
 }
 
@@ -264,9 +264,132 @@ tt.about-neofetch-info {
 	margin: 0%;
 	border: var(--orange) solid 1px;	
 	border-radius: 25px;
-	min-width: 280px;
-	max-width: 400px;
-	max-height: 410px;
+	width: 100%;
+	max-height: 430px;
+	/*min-height: 300px;*/
+	/*max-height: 620px;*/
 	box-shadow: var(--dark) 5px 5px 6px;
 
+}
+
+
+/* FOOTER */
+
+footer{
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.Contact {
+	padding: 20px 15px 50px 15px;
+}
+
+.Contact > p {
+	margin-bottom: 40px;
+}
+
+h1.contact-title {
+	margin: 40px 0px 40px 0px;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.contact-form {
+	margin: 0% 5% 0% 5%;
+}
+
+.contact-form-name {
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: none;
+	background-color: #3c3c3c;
+	color: var(--light-gray);
+	outline: none;
+	transition: all ease 400ms;
+}
+
+.contact-form-name:focus{
+	border: 1.4px solid var(--orange);
+	transition: all ease 400ms;
+}
+
+.contact-form-message {
+	display: block;
+	color: var(--light-gray);
+	width: 100%;
+	height: 150px;
+	font-size: 1.7rem;
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	background-color: #3c3c3c;
+	resize: none;
+	outline: none;
+	transition: all ease 400ms;
+}
+
+.contact-form-message:focus{
+	border: var(--orange) 1.4px solid;
+	transition: all ease 400ms;
+}
+
+button.contact-form-button {
+	margin-top: 20px;
+	border: none;
+	background-color: var(--orange);
+	color: var(--dark);
+	display: block;
+	padding: 10px;
+	font-size: 1.6rem;
+	width: 100%;
+	border-radius: 10px;
+}
+
+button.contact-form-button:hover{
+	background-color: var(--dark-gray);
+	color: var(--light-gray);
+	transition: all ease 400ms;
+}
+
+.contact-info {
+	text-align: center;
+	margin-top:15px ;
+}
+
+.contact-info-socialmedia {
+	border-top: 1.5px solid var(--orange);
+	margin: 0% 5% 0% 5%;
+}
+
+.contact-info-email {
+	margin-bottom: 20px;	
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.6rem;
+	color: var(--light-gray);
+	text-align: center;
+}
+
+.contact-info-socialmedia > ul {
+	list-style: none;
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia-item {
+	margin: 0% 5% 0% 5%;
+	display: inline-block;
+}
+
+.socialmedia-item a{
+	text-decoration: none;
+	color: var(--orange);
+	font-size: 2.5rem;
 }
