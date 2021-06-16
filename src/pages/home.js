@@ -59,7 +59,7 @@ const Home = () => {
 						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
 
-						<a href="#">>_See my projects</a>
+						<a href="">>_See my projects</a>
 					</div>
 				</div>
 			</div>
