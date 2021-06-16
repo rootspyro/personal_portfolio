@@ -66,10 +66,22 @@ nav > p {
 nav {
 	display: none;
 	padding: 0%;
+	transition: all ease 200ms;
+}
+
+@keyframes menu{
+	from {
+		opacity: 0%;
+	}
+	to{
+		opacity: 100%;
+	}
 }
 
 nav.active{
 	display: block;
+	transition: all ease 200ms;
+	animation: menu 400ms;
 }
 
 .nav-menu {
@@ -311,12 +323,12 @@ h1.contact-title {
 	background-color: #3c3c3c;
 	color: var(--light-gray);
 	outline: none;
-	transition: all ease 400ms;
+	transition: all ease 200ms;
 }
 
 .contact-form-name:focus{
 	border: 1.4px solid var(--orange);
-	transition: all ease 400ms;
+	transition: all ease 200ms;
 }
 
 .contact-form-message {
@@ -331,12 +343,12 @@ h1.contact-title {
 	background-color: #3c3c3c;
 	resize: none;
 	outline: none;
-	transition: all ease 400ms;
+	transition: all ease 200ms;
 }
 
 .contact-form-message:focus{
 	border: var(--orange) 1.4px solid;
-	transition: all ease 400ms;
+	transition: all ease 200ms;
 }
 
 button.contact-form-button {
