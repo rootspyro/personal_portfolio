@@ -40,7 +40,9 @@ module.exports = {
 		}),
 		new copyWebpackPlugin({
 			patterns: [
-				{from:"./src/styles/mobile.css", to: ''}
+				{from:"./src/styles/mobile.css", to: ''},
+				{from:"./src/styles/tablet.css", to: ''},
+				{from:"./src/utils/scroll-reveal.js", to: ''}
 			]
 		}),
 	],

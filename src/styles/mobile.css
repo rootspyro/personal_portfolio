@@ -35,7 +35,7 @@ body {
 
 .terminal-user {
 	font-size: 1.5rem;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 /*  HEADER  */
@@ -69,7 +69,7 @@ nav {
 	transition: all ease 200ms;
 }
 
-@keyframes menu{
+@keyframes display{
 	from {
 		opacity: 0%;
 	}
@@ -81,7 +81,7 @@ nav {
 nav.active{
 	display: block;
 	transition: all ease 200ms;
-	animation: menu 400ms;
+	animation: display 400ms;
 }
 
 .nav-menu {
@@ -96,6 +96,15 @@ nav.active{
 .nav-menu-item a {
 	color: var(--light-gray);
 	text-decoration: none;
+}
+
+.command{
+	position: relative;
+}
+.command > span {
+	position:absolute;
+  right:0;
+  width:0;
 }
 
 
@@ -188,7 +197,11 @@ a.meetme-btn:hover {
 
 .About {
 	box-sizing: border-box;
-	padding: 20px 15px 50px 15px;
+	padding: 25px 15px 50px 15px;
+}
+
+.About .command > span{
+	background-color: var(--dark);
 }
 
 .about-neofetch{
@@ -207,12 +220,13 @@ img.about-neofetch-img {
 tt.about-neofetch-info {
 	display: inline-block;
 	margin-top: 40px;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 .about-story {
 	margin-top: 25px;
 	text-align: center;
+	font-size: 1.7rem;
 }
 
 .about-story p {
@@ -220,10 +234,9 @@ tt.about-neofetch-info {
 }
 
 .about-story a {
-	margin-top: 30px;
+	margin-top: 40px;
 	display: inline-block;
 	text-decoration: none;
-	font-weight: 300;
 	color: var(--light-gray);
 }
 
@@ -237,6 +250,11 @@ tt.about-neofetch-info {
 	background-color: var(--dark-gray);
 	box-sizing: border-box;	
 	padding: 20px 15px 50px 15px;
+}
+
+
+.Skills .command > span{
+		background-color: var(--dark-gray);
 }
 
 .Skills > p {
@@ -263,6 +281,11 @@ tt.about-neofetch-info {
 .skills-frontend-title, .skills-backend-title {
 	font-size: 1.6rem;	
 	margin-bottom: 15px;
+}
+
+.skills-languages{
+	margin-bottom: 15px;
+	font-size: 1.7rem;
 }
 
 .skills-img {
@@ -298,6 +321,7 @@ footer{
 
 .Contact > p {
 	margin-bottom: 40px;
+	font-weight: bold;
 }
 
 h1.contact-title {
@@ -311,7 +335,7 @@ h1.contact-title {
 	margin: 0% 5% 0% 5%;
 }
 
-.contact-form-name {
+.contact-form-input {
 	width: 100%;
 	display: block;
 	margin-bottom: 20px;
@@ -326,7 +350,7 @@ h1.contact-title {
 	transition: all ease 200ms;
 }
 
-.contact-form-name:focus{
+.contact-form-input:focus{
 	border: 1.4px solid var(--orange);
 	transition: all ease 200ms;
 }

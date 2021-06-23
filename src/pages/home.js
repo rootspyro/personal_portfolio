@@ -35,12 +35,13 @@ const Home = () => {
 			</div>
 
 			<div class="About" id="About">
-				<p class="terminal-user">root@<spam class="orange">spyro</spam>:/About# ./meet_me.sh</p>
+				<p class="terminal-user">root@<spam class="orange">spyro</spam>:/About# <spam class=command>neofetch <span>&#160</span></span></p>
 				<div class="about-container">
 					<div class="about-neofetch">
-						
-						<img src="${face}" class="about-neofetch-img">
-						
+						<div>	
+							<img src="${face}" class="about-neofetch-img">
+						</div>
+						<div>
 						<tt class="about-neofetch-info">
 							root@<spam class="orange">spyro</spam><br>
 							----------<br>
@@ -51,7 +52,7 @@ const Home = () => {
 							<spam class="orange">Backend:</spam>60%</br>
 							<spam class="orange">Citizenship:</spam>Venezuelan</br>
 						</tt>
-
+						</div>
 					</div>
 					<div class="about-story">
 						<p>
@@ -65,10 +66,16 @@ const Home = () => {
 			</div>
 
 			<div class="Skills" id="Skills">
-				<p>root@<spam class="orange">spyro</spam>:/Skills# code skills.json</p>
+				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Skills# <span class=command>code skills.json<span>&#160</span></span></p>
 				<div class="skills-info">	
 					<div class="skills-frontend">
 						<h3 class="skills-frontend-title orange">//FRONTEND</h3>
+						<div class="skills-languages">
+							<i class="fab fa-html5 orange"></i>
+							<i class="fab fa-css3-alt orange"></i>
+							<i class="fab fa-js-square orange"></i>
+							<i class="fab fa-react orange"></i>
+						</div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -76,6 +83,12 @@ const Home = () => {
 					</div>
 					<div class="skills-backend">
 						<h3 class="skills-backend-title orange">//BACKEND</h3>
+						<div class="skills-languages">
+							<i class="fab fa-node-js orange"></i>
+							<i class="fab fa-python orange"></i>
+							<i class="fas fa-database orange"></i>
+							<i class="fas fa-server orange"></i>
+						</div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

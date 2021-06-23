@@ -2,12 +2,13 @@ const Footer = () => {
 	const view = `
 		
 			<div class="Contact" id="Contact">
-				<p>root@<spam class="orange">spyro</spam>:/Contact#</p>
+				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Contact#</p>
 				<h1 class='contact-title orange'>LET'S TALK!</h1>
-				<form class="contact-form " id="contact-form">
-					<input type="text" placeholder="//what's_your_name?" autocomplete="name" class="contact-form-name" id="contact-name" required>
-					<textarea class="contact-form-message" id="contact-message" placeholder="//Write_your_message" required></textarea>
-					<button class="contact-form-button" id="contact-send">>_Send_email</button>
+				<form class="contact-form " id="contact-form" action="https://api.slapform.com/root.spyro@gmail.com/" method="POST"> 
+					<input type="text" placeholder="//what's_your_name?" autocomplete="name" class="contact-form-input" id="contact-name" name=name required> 
+					<input type="email" placeholder="//what's_your_email?" autocomplete="email" class="contact-form-input" name="email" required>
+						<textarea class="contact-form-message" id="contact-message" placeholder="//Write_your_message" name=message required></textarea>
+					<button class="contact-form-button" id="contact-send" type=submit>>_Send_email</button>
 				</form>
 			</div>
 			<div class="contact-info ">
@@ -16,7 +17,7 @@ const Footer = () => {
 				</div>
 				<div class="contact-info-socialmedia">
 					<ul>
-						<li class="socialmedia-item"><a href="" target=_blank><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="socialmedia-item"><a href="https://www.linkedin.com/in/spyridon-mihalopoulos-alvarez-110119215/" target=_blank><i class="fab fa-linkedin-in"></i></a></li>
 						<li class="socialmedia-item"><a href="https://www.instagram.com/rootspyro/" target=_blank><i class="fab fa-instagram"></i></a></li>
 						<li class="socialmedia-item"><a href="https://github.com/rootspyro" target=_blank><i class="fab fa-github"></i></a></li>
 						<li class="socialmedia-item"><a href="" target=_blank><i class="fab fa-facebook-square"></i></a></li>
