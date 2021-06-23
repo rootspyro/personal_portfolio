@@ -1,0 +1,39 @@
+h1.presentation-title{
+	font-size: 3.4rem;
+}
+
+
+.about-neofetch{
+	display: flex;
+}
+
+img.about-neofetch-img{
+	margin-left: 5%;
+	width: 230px;	
+	height: 230px;
+}
+
+tt.about-neofetch-info{
+	text-align: left;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-left: 12%;
+	margin-top: 2%;
+}
+
+.about-story{
+	display: block;
+	margin-top: 40px;
+}
+
+.skills-info > div{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.skills-img img{
+	width: 80%;
+	max-width: 500px;
+}
+
+
