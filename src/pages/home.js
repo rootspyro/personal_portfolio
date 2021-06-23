@@ -13,7 +13,7 @@ const Home = () => {
 					background-position: center;
 				}
 			</style>
-				<div class="terminal">
+				<div class="terminal" id=terminal>
 					<div class="terminal-head">
 						<p class="terminal-head-user">root@<span class="orange">spyro</span>:/Home#</p>	
 						<p class="terminal-head-menu">
@@ -35,9 +35,9 @@ const Home = () => {
 			</div>
 
 			<div class="About" id="About">
-				<p class="terminal-user">root@<spam class="orange">spyro</spam>:/About# <spam class=command>neofetch <span>&#160</span></span></p>
+				<p class="terminal-user">root@<spam class="orange">spyro</spam>:/About# <spam class=command>neofetch <span id=about-cursor>&#160</span></span></p>
 				<div class="about-container">
-					<div class="about-neofetch">
+					<div class="about-neofetch" id="neofetch">
 						<div>	
 							<img src="${face}" class="about-neofetch-img">
 						</div>
@@ -66,9 +66,9 @@ const Home = () => {
 			</div>
 
 			<div class="Skills" id="Skills">
-				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Skills# <span class=command>code skills.json<span>&#160</span></span></p>
+				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Skills# <span class=command>code skills.json<span id=skills-cursor>&#160</span></span></p>
 				<div class="skills-info">	
-					<div class="skills-frontend">
+					<div class="skills-frontend" id="skills-frontend">
 						<h3 class="skills-frontend-title orange">//FRONTEND</h3>
 						<div class="skills-languages">
 							<i class="fab fa-html5 orange"></i>
@@ -81,7 +81,7 @@ const Home = () => {
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						<p>
 					</div>
-					<div class="skills-backend">
+					<div class="skills-backend" id="skills-backend">
 						<h3 class="skills-backend-title orange">//BACKEND</h3>
 						<div class="skills-languages">
 							<i class="fab fa-node-js orange"></i>
@@ -94,7 +94,7 @@ const Home = () => {
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
 					</div>
-					<div class="skills-img">
+					<div class="skills-img" id="skills-img">
 						<img src="${skills}" alt="screenshot de codigo en json">
 					</div>
 				</div>

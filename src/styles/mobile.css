@@ -38,6 +38,30 @@ body {
 	font-weight: bold;
 }
 
+/* ANIMATIONS */
+
+
+@keyframes display {
+	from {
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
+}
+
+@keyframes write {
+	from { 
+		width: 100%;
+		border-left: var(--light-gray) 3px solid;
+	}
+	to {
+		width: 0%;
+		border-left: var(--light-gray) 3px solid;
+	}
+}
+
+
 /*  HEADER  */
 
 header {
@@ -129,6 +153,7 @@ main {
 	background-color: rgb(48,48,48,0.9);
 	border-radius: 25px;
 	box-shadow: 4px 4px 5px var(--dark-gray);
+	animation: display 1.5s;
 }
 
 .terminal-head {
@@ -200,12 +225,14 @@ a.meetme-btn:hover {
 	padding: 25px 15px 50px 15px;
 }
 
-.About .command > span{
+#about-cursor{
 	background-color: var(--dark);
+	width: 100%;
 }
 
 .about-neofetch{
 	margin-top: 50px;
+	opacity: 0%;
 }
 
 img.about-neofetch-img {
@@ -253,8 +280,9 @@ tt.about-neofetch-info {
 }
 
 
-.Skills .command > span{
-		background-color: var(--dark-gray);
+#skills-cursor{
+	background-color: var(--dark-gray);
+	width: 100%;
 }
 
 .Skills > p {
@@ -276,6 +304,7 @@ tt.about-neofetch-info {
 	border-radius: 25px;
 	background-color: #353535;
 	box-shadow: var(--dark) 5px 5px 6px;
+	opacity: 0%;
 }
 
 .skills-frontend-title, .skills-backend-title {
@@ -292,6 +321,7 @@ tt.about-neofetch-info {
 	display: flex;
 	justify-content: center;
 	box-sizing: border-box;
+	opacity: 0%;
 }
 
 .skills-img img{
