@@ -35,7 +35,7 @@ const Home = () => {
 			</div>
 
 			<div class="About" id="About">
-				<p class="terminal-user">root@<spam class="orange">spyro</spam>:/About# <spam class=command>neofetch <span id=about-cursor>&#160</span></span></p>
+				<p class="terminal-user">root@<span class="orange">spyro</span>:/About# <span class=command>neofetch <span id=about-cursor>&#160</span></span></p>
 				<div class="about-container">
 					<div class="about-neofetch" id="neofetch">
 						<div>	

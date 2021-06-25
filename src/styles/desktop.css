@@ -1,0 +1,26 @@
+.burger-menu{
+	display: none;
+}
+
+header {
+	display: block;
+	
+}
+
+nav {
+	display: flex;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+nav > p {
+	display: inline-block;
+	margin:auto;
+	margin-left: 20px;
+}
+
+.nav-menu {
+	display: inline-flex;
+	margin-right: 20px;
+}
+

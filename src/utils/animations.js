@@ -4,7 +4,7 @@ class Animations {
 		
 		let object = document.getElementById(id)
 		let position = object.getBoundingClientRect().top
-		let screenSize = window.innerHeight/3.5
+		let screenSize = window.innerHeight/2
 
 		if ( position < screenSize ) {
 
@@ -17,7 +17,7 @@ class Animations {
 
 		let object = document.getElementById(id)
 		let position = object.getBoundingClientRect().top
-		let screenSize = window.innerHeight/3.5
+		let screenSize = window.innerHeight/2
 
 		if ( position < screenSize ) {
 			object.style.animation = 'write 2s steps(15)'

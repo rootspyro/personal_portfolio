@@ -42,6 +42,7 @@ module.exports = {
 			patterns: [
 				{from:"./src/styles/mobile.css", to: ''},
 				{from:"./src/styles/tablet.css", to: ''},
+				{from:"./src/styles/desktop.css", to: ''},
 			]
 		}),
 	],
