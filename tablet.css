@@ -33,7 +33,17 @@ tt.about-neofetch-info{
 
 .skills-img img{
 	width: 80%;
-	max-width: 500px;
+	max-width: 480px;
+	max-width: 520x;
 }
 
+.contact-title{
+	margin-top: 50px;
+}
+
+.contact-form{
+	max-width: 550px;
+	display: block;
+	margin: auto;
+}
 

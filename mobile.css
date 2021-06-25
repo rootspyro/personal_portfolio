@@ -34,7 +34,7 @@ body {
 }
 
 .terminal-user {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 }
 
@@ -91,15 +91,6 @@ nav {
 	display: none;
 	padding: 0%;
 	transition: all ease 200ms;
-}
-
-@keyframes display{
-	from {
-		opacity: 0%;
-	}
-	to{
-		opacity: 100%;
-	}
 }
 
 nav.active{
@@ -354,6 +345,11 @@ footer{
 	font-weight: bold;
 }
 
+#contact-cursor {
+	background-color: var(--dark);
+	width: 100%;
+}
+
 h1.contact-title {
 	margin: 40px 0px 40px 0px;
 	text-align: center;
@@ -363,6 +359,7 @@ h1.contact-title {
 
 .contact-form {
 	margin: 0% 5% 0% 5%;
+	opacity: 0%;
 }
 
 .contact-form-input {
