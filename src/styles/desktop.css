@@ -4,13 +4,16 @@
 
 header {
 	display: block;
-	
+	background: none;
 }
 
 nav {
+	margin: 1% 5% 0% 5%;
+	background-color: var(--dark);
+	width: 89%;
+	opacity: 98%;
 	display: flex;
-	margin-left: 2%;
-	margin-right: 2%;
+	border-radius: 15px;
 }
 
 nav > p {
@@ -22,5 +25,104 @@ nav > p {
 .nav-menu {
 	display: inline-flex;
 	margin-right: 20px;
+}
+
+/* Estilos del MAIN */
+
+.Home {
+	height: 100vh;
+}
+
+.terminal {
+	margin-top: 2%;
+}
+
+h1.presentation-title{
+	font-size: 4.6rem;
+}
+
+h3.presentation-subtitle{
+	font-size: 2.8rem;
+	margin-bottom: 3%;
+}
+
+img.presentation-img {
+	width: 128px;
+	height: 128px;
+}
+
+.terminal-body > a.meetme-btn {
+	font-size: 1.8rem;
+	width: 20%;
+	margin-top: 5%;
+}
+
+.about-container {
+	display: flex;
+	margin: 3% 5% 3% 5%;
+}
+
+img.about-neofetch-img {
+	margin-left: 10%;
+	width: 250px;
+	height: 250px;
+}
+
+tt.about-neofetch-info {
+	margin-left: 25%;
+}
+
+.about-story {
+	margin: auto;
+	padding: 0% 10% 0% 10%;
+}
+
+.Skills {
+	padding-bottom: 6%;
+}
+
+
+.skills-info{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.skills-cards{
+	margin: auto;
+}
+
+.skills-img > img {
+	max-height: 450px;
+}
+
+h1.contact-title {
+	text-align: left;
+	font-size: 4.4rem;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.contact-form {
+	margin: 0%;
+	margin-top: 2%;
+	margin-left: 5%;
+	max-width: 650px;
+}
+
+.contact-info-email{
+	font-size: 1.8rem;
+	text-align: right;
+	margin-top: 1%;
+	margin-right: 6%;
+}
+
+.contact-info-socialmedia > ul {
+	justify-content: right;
+	display: block;
+}
+
+.socialmedia-item {
+	margin: 0% 1% 4% 3%;
+	float: right;
 }
 

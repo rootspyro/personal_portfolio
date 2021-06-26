@@ -18,6 +18,7 @@ window.addEventListener('scroll', ()=>{
 	//ABOUT 
 	animation.writeCommand('about-cursor')
 	animation.turnOn('neofetch',2)
+	animation.turnOn('story', 2)
 
 	//SKILLS
 	animation.writeCommand('skills-cursor')

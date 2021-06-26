@@ -54,13 +54,13 @@ const Home = () => {
 						</tt>
 						</div>
 					</div>
-					<div class="about-story">
+					<div class="about-story" id=story>
 						<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
 
-						<a href="">>_See my projects</a>
+						<a href="">See my projects</a>
 					</div>
 				</div>
 			</div>
@@ -68,6 +68,7 @@ const Home = () => {
 			<div class="Skills" id="Skills">
 				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Skills# <span class=command>code skills.json<span id=skills-cursor>&#160</span></span></p>
 				<div class="skills-info">	
+				<div class="skills-cards">
 					<div class="skills-frontend" id="skills-frontend">
 						<h3 class="skills-frontend-title orange">//FRONTEND</h3>
 						<div class="skills-languages">
@@ -93,6 +94,7 @@ const Home = () => {
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 						</p>
+					</div>
 					</div>
 					<div class="skills-img" id="skills-img">
 						<img src="${skills}" alt="screenshot de codigo en json">
