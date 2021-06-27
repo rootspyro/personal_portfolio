@@ -62,6 +62,10 @@ img.presentation-img {
 	margin: 3% 5% 3% 5%;
 }
 
+.about-neofetch {
+	margin-top: 20px;
+}
+
 img.about-neofetch-img {
 	margin-left: 10%;
 	width: 250px;
@@ -74,7 +78,8 @@ tt.about-neofetch-info {
 
 .about-story {
 	margin: auto;
-	padding: 0% 10% 0% 10%;
+	margin-left: 6%;
+	padding: 0%;
 }
 
 .Skills {
@@ -122,7 +127,7 @@ h1.contact-title {
 }
 
 .socialmedia-item {
-	margin: 0% 1% 4% 3%;
+	margin: 0% 1% 3% 2%;
 	float: right;
 }
 

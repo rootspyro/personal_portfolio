@@ -114,6 +114,11 @@ nav.active{
 	text-decoration: none;
 }
 
+.nav-menu-item a:hover{
+	color: var(--orange);
+	transition: all ease 400ms;
+}
+
 .command{
 	position: relative;
 }
@@ -225,6 +230,8 @@ a.meetme-btn:hover {
 .about-neofetch{
 	margin-top: 50px;
 	opacity: 0%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 img.about-neofetch-img {
@@ -247,6 +254,8 @@ tt.about-neofetch-info {
 	text-align: center;
 	font-size: 1.7rem;
 	opacity: 0;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .about-story p {
@@ -262,7 +271,7 @@ tt.about-neofetch-info {
 	color: var(--dark);
 	border-radius: 15px;
 	font-weight: bold;
-	padding: 3% 3% 3% 3%;
+	padding: 15px 20px 15px 20px;
 }
 
 .about-story a:hover {

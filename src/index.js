@@ -1,6 +1,7 @@
 import Router from './utils/router'
 import animation from './utils/animations'
 //import activateMenu from './utils/activate-menu'
+import HideNav from './utils/hideNav'
 
 
 window.addEventListener('load', ()=> {
@@ -11,10 +12,9 @@ window.addEventListener('hashchange',()=>{
 })
 
 
-
-
 window.addEventListener('scroll', ()=>{
 	
+	HideNav()
 	//ABOUT 
 	animation.writeCommand('about-cursor')
 	animation.turnOn('neofetch',2)

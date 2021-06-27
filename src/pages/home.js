@@ -56,8 +56,10 @@ const Home = () => {
 					</div>
 					<div class="about-story" id=story>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Welcome, if you are reading this you are probably looking for help, you are looking for someone who can help you with that goal you need. Maybe that website for your company, a blog, a sales page, an application or to enhance your personal brand.
+							<br> <br>
+							I'm Spyro and I'm a programmer, web developer, and passionate about technology.
+							I love to learn, constantly improve my skills, solve problems and create solutions through technology. And for that reason, I want to help you achieve your goals.
 						</p>
 
 						<a href="">See my projects</a>
