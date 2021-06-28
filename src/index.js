@@ -22,8 +22,7 @@ window.addEventListener('scroll', ()=>{
 
 	//SKILLS
 	animation.writeCommand('skills-cursor')
-	animation.turnOn('skills-frontend',1.5)
-	animation.turnOn('skills-backend', 1.5)
+	animation.turnOn('cards', 1.5)
 	animation.turnOn('skills-img', 1.5)
 
 	//CONTACT

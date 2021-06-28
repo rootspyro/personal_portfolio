@@ -3,8 +3,9 @@
 	--dark-gray: #242424;
 	--light-gray: #c6c6c6;
 	--orange: #F27B2C;
-;
+
 	--font:'Roboto', sans-serif;
+	--bold:'Roboto Condensed', sans-serif; 
 }
 
 * {
@@ -193,7 +194,7 @@ img.presentation-img {
 	border: 2px solid var(--orange);
 }
 
-.terminal-body > a.meetme-btn {
+a.meetme-btn {
 	margin: auto;
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -209,7 +210,7 @@ img.presentation-img {
 
 a.meetme-btn:hover {
 	background-color: var(--orange);
-	color: var(--light-gray);
+	color: var(--dark);
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -269,8 +270,7 @@ tt.about-neofetch-info {
 	background-color: var(--orange);
 	font-size: 1.7rem;
 	color: var(--dark);
-	border-radius: 15px;
-	font-weight: bold;
+	border-radius: 15px;	font-weight: bold;
 	padding: 15px 20px 15px 20px;
 }
 
@@ -292,11 +292,29 @@ tt.about-neofetch-info {
 	width: 100%;
 }
 
+
 .Skills > p {
 	margin-bottom: 40px;
 }
+
+.skills-question {
+	font-size: 3.2rem;
+	text-align: center;
+	font-family: var(--bold);
+	margin-bottom: 30px;
+}
+
+#preskills{
+	display: inline-block;
+	margin: 0% 6% 4% 6%;
+}
+
 .skills-info {
 	margin-top: 20px;
+}
+
+.skills-cards{
+	opacity: 0;
 }
 
 .skills-backend , .skills-frontend {
@@ -308,7 +326,6 @@ tt.about-neofetch-info {
 	border-radius: 25px;
 	background-color: #353535;
 	box-shadow: var(--dark) 5px 5px 6px;
-	opacity: 0%;
 }
 
 .skills-img {
@@ -372,8 +389,8 @@ footer{
 h1.contact-title {
 	margin: 40px 0px 40px 0px;
 	text-align: center;
-	font-size: 3rem;
-	font-weight: bolder;
+	font-size: 3.6rem;
+	font-family: var(--bold);
 }
 
 .contact-form {

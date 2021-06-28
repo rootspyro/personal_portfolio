@@ -1,7 +1,7 @@
 import profileimg from '../img/Perfil-final.png'
 import background from '../img/homeBack.jpg'
 import face from '../img/Face.jpg'
-import skills from '../img/skills.png'
+import skills from '../img/carbon.png'
 const Home = () => {
 	const view = `
 
@@ -29,7 +29,7 @@ const Home = () => {
 						<h1 class="presentation-title">Spyridon Mihalopoulos</h1>
 						<h3 class="presentation-subtitle">Frontend . <spam class="orange">Backend</spam> . Developer</h3>
 						<img class="presentation-img" src=${profileimg}>
-						<a href="#About" class="meetme-btn">./meet_me.sh</a>
+						<a href="#About" class="meetme-btn">meet_me</a>
 					</div>
 				</div>
 			</div>
@@ -58,19 +58,26 @@ const Home = () => {
 						<p>
 							Welcome, if you are reading this you are probably looking for help, you are looking for someone who can help you with that goal you need. Maybe that website for your company, a blog, a sales page, an application or to enhance your personal brand.
 							<br> <br>
-							I'm Spyro and I'm a programmer, web developer, and passionate about technology.
+							I'm Spyro and I'm a programmer and web developer.
 							I love to learn, constantly improve my skills, solve problems and create solutions through technology. And for that reason, I want to help you achieve your goals.
 						</p>
 
-						<a href="">See my projects</a>
+						<a href="#Skills">See_my_experience</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="Skills" id="Skills">
 				<p class=terminal-user>root@<spam class="orange">spyro</spam>:/Skills# <span class=command>code skills.json<span id=skills-cursor>&#160</span></span></p>
+				<h1 class="skills-question orange">What's my experience?</h1>
+				<p id="preskills">
+					I will be honest with you, I am not the Senior Developer who drinks 7 cups of coffee a day, with a majestic beard and a MacBook pro, with the power of the 3 rings of the Full-Stack development.
+					<br> <br>
+					But I have covered knowledge and experiences (University, courses and self-taught) that make me the developer that I am, 
+					don't just believe my words, <a href="" class="orange">see for yourself.</a>
+				</p>
 				<div class="skills-info">	
-				<div class="skills-cards">
+				<div class="skills-cards" id=cards>
 					<div class="skills-frontend" id="skills-frontend">
 						<h3 class="skills-frontend-title orange">//FRONTEND</h3>
 						<div class="skills-languages">
@@ -99,7 +106,9 @@ const Home = () => {
 					</div>
 					</div>
 					<div class="skills-img" id="skills-img">
+						<a href="${skills}">
 						<img src="${skills}" alt="screenshot de codigo en json">
+						</a>
 					</div>
 				</div>
 			</div>
