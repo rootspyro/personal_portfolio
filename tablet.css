@@ -26,15 +26,30 @@ tt.about-neofetch-info{
 	margin-top: 40px;
 }
 
+.skills-question {
+	font-size: 3.5rem;
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+#preskills {
+	font-size: 1.7rem;
+	margin: 0% 10% 5% 10%;
+}
+
 .skills-info > div{
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-.skills-img img{
-	width: 80%;
-	max-width: 480px;
-	max-width: 520x;
+.skills-img {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.skills-img  img{
+	max-width: 460px;
+	max-height: 480px;
 }
 
 .contact-title{
