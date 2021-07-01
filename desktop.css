@@ -2,6 +2,11 @@
 	display: none;
 }
 
+.terminal-user {
+	font-size: 1.7rem;
+	margin: 1%;
+}
+
 header {
 	display: block;
 	background: none;
@@ -9,7 +14,7 @@ header {
 
 nav {
 	margin: 2% 5% 0% 5%;
-	background-color: var(--dark);
+	background-color: #1f1f1f;
 	width: 89%;
 	opacity: 98%;
 	display: flex;
@@ -57,29 +62,42 @@ img.presentation-img {
 	margin-top: 5%;
 }
 
+.About {
+	height: 85vh;
+}
+
+.about-title{
+	text-align: left;
+	margin-left: 5%;
+	font-size: 4.3rem;
+}
+
 .about-container {
 	display: flex;
-	margin: 3% 5% 3% 5%;
+	margin: 0% 5% 3% 5%;
+	margin-top: 7vh;
 }
 
 .about-neofetch {
-	margin-top: 20px;
+	margin: 0;
 }
 
 img.about-neofetch-img {
-	margin-left: 10%;
-	width: 250px;
-	height: 250px;
+	margin-left: 0%;
+	width: 270px;
+	height: 270px;
 }
 
 tt.about-neofetch-info {
-	margin-left: 25%;
+	margin-left: 15%;
+	font-size: 1.9rem;
 }
 
 .about-story {
 	margin: auto;
 	margin-left: 6%;
 	padding: 0%;
+	font-size: 1.9rem;
 }
 
 .Skills {
@@ -135,6 +153,18 @@ h1.contact-title {
 	margin-top: 2%;
 	margin-left: 5%;
 	max-width: 650px;
+}
+
+.contact-form-input {
+	font-size: 1.8rem;
+}
+
+.contact-form-message {
+	font-size:1.8rem ;
+}
+
+button.contact-form-button{
+	font-size: 1.8rem;
 }
 
 .contact-info-email{
