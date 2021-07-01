@@ -36,6 +36,7 @@ const Home = () => {
 
 			<div class="About" id="About">
 				<p class="terminal-user">root@<span class="orange">spyro</span>:/About# <span class=command>neofetch <span id=about-cursor>&#160</span></span></p>
+				<h1 class="about-title orange">About Me</h1>
 				<div class="about-container">
 					<div class="about-neofetch" id="neofetch">
 						<div>	
