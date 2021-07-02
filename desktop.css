@@ -39,7 +39,8 @@ nav > p {
 }
 
 .terminal {
-	margin-top: 2%;
+	/*margin-top: 2%;*/
+	margin-top: 7vh; 
 }
 
 h1.presentation-title{
