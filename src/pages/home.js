@@ -88,8 +88,7 @@ const Home = () => {
 							<i class="fab fa-react orange"></i>
 						</div>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							I am not a user interface designer, but currently I can design and implement the view and functionality of a static page or a web application from scratch, using vanilla javascript, webpack, and frameworks like React.
 						<p>
 					</div>
 					<div class="skills-backend" id="skills-backend">
@@ -101,8 +100,7 @@ const Home = () => {
 							<i class="fas fa-server orange"></i>
 						</div>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Today, I am geared towards backend development with Node and Python (Flask and Django), using relational databases servers like MySQL and NoSQL like MongoDB. I also have experience developing in Linux environments and am familiar with Rest architecture APIs. 
 						</p>
 					</div>
 					</div>
