@@ -2,6 +2,7 @@ import Router from './utils/router'
 import animation from './utils/animations'
 //import activateMenu from './utils/activate-menu'
 import HideNav from './utils/hideNav'
+import projects from './utils/projects'
 
 
 window.addEventListener('load', ()=> {
@@ -43,26 +44,10 @@ navbarBtn.addEventListener('click', () => {
 
 // MODAL PROJECTS FUNCTIONS
 
-function showProjects(){
-	const projectModal = document.getElementById('Projects')
-
-	if (window.screen.width <= 1149 ){
-
-		const nav = document.getElementById('navbar') 
-		nav.classList.toggle('active')
-	}
-
-	projectModal.style.display = 'block'
-}
-function hideProjects(){
-	const projectModal = document.getElementById('Projects')
-	projectModal.style.display = 'none'
-}
-
 document.getElementById('Projects-btn').addEventListener('click', ()=> {
-	showProjects()
+	projects.showProjects()
 })
 
 document.getElementById('close').addEventListener('click', ()=> {
-	hideProjects()
+	projects.hideProjects()
 })
