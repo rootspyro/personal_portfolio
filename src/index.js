@@ -41,5 +41,21 @@ navbarBtn.addEventListener('click', () => {
 })
 
 
+// MODAL PROJECTS FUNCTIONS
 
+function showProjects(){
+	const projectModal = document.getElementById('Projects')
+	projectModal.style.display = 'block'
+}
+function hideProjects(){
+	const projectModal = document.getElementById('Projects')
+	projectModal.style.display = 'none'
+}
 
+document.getElementById('Projects-btn').addEventListener('click', ()=> {
+	showProjects()
+})
+
+document.getElementById('close').addEventListener('click', ()=> {
+	hideProjects()
+})
