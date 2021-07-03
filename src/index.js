@@ -45,6 +45,13 @@ navbarBtn.addEventListener('click', () => {
 
 function showProjects(){
 	const projectModal = document.getElementById('Projects')
+
+	if (window.screen.width <= 1149 ){
+
+		const nav = document.getElementById('navbar') 
+		nav.classList.toggle('active')
+	}
+
 	projectModal.style.display = 'block'
 }
 function hideProjects(){
