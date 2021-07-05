@@ -47,6 +47,41 @@
 				</div>
 				<h2 class="orange">My Projects</h2>
 			</div>		
+
+		<script>
+
+			function sProjects(){
+				const projectModal = document.getElementById('Projects')
+
+				if (window.screen.width <= 1149 ){
+
+					const nav = document.getElementById('navbar') 
+					nav.classList.toggle('active')
+				}
+
+				projectModal.style.display = 'block'
+				document.body.style.overflow = 'hidden'
+
+			}
+
+			function hProjects(){
+
+				const projectModal = document.getElementById('Projects')
+				projectModal.style.display = 'none'
+				document.body.style.overflowY = 'scroll'
+
+			}
+
+			document.getElementById('Projects-btn').addEventListener('click', ()=> {
+				sProjects()
+			})
+
+			document.getElementById('close').addEventListener('click', ()=> {
+				hProjects()			
+			})
+
+		</script>
+
 		</div>
 		<footer id="footer"></footer>
 		

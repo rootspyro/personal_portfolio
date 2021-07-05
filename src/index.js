@@ -1,8 +1,6 @@
 import Router from './utils/router'
 import animation from './utils/animations'
-//import activateMenu from './utils/activate-menu'
 import HideNav from './utils/hideNav'
-import projects from './utils/projects'
 
 
 window.addEventListener('load', ()=> {
@@ -42,12 +40,3 @@ navbarBtn.addEventListener('click', () => {
 })
 
 
-// MODAL PROJECTS FUNCTIONS
-
-document.getElementById('Projects-btn').addEventListener('click', ()=> {
-	projects.showProjects()
-})
-
-document.getElementById('close').addEventListener('click', ()=> {
-	projects.hideProjects()
-})

@@ -75,7 +75,7 @@ const Home = () => {
 					I will be honest with you, I am not the Senior Developer who drinks 7 cups of coffee a day, with a majestic beard and a MacBook pro, with the power of the 3 rings of the Full-Stack development.
 					<br> <br>
 					But I have covered knowledge and experiences (University, courses and self-taught) that make me the developer that I am, 
-					don't just believe my words, <a href="" class="orange">see for yourself.</a>
+					don't just believe my words, <a  class="orange" onclick="sProjects()">see for yourself.</a>
 				</p>
 				<div class="skills-info">	
 				<div class="skills-cards" id=cards>
