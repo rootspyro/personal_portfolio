@@ -52,6 +52,11 @@ tt.about-neofetch-info{
 	max-height: 480px;
 }
 
+.projects-container > h2 {
+	margin-top: 35px;
+	font-size: 3.4rem;
+}
+
 .contact-title{
 	margin-top: 50px;
 }

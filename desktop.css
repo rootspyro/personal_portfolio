@@ -142,6 +142,15 @@ tt.about-neofetch-info {
 	max-height: 420px;
 }
 
+.projects-container {
+	width: 80%;
+}
+
+.projects-container > h2 {
+	font-size: 4rem;
+}
+
+
 h1.contact-title {
 	text-align: left;
 	font-size: 4.4rem;

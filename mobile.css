@@ -317,6 +317,14 @@ tt.about-neofetch-info {
 	margin: 0% 6% 4% 6%;
 }
 
+#preskills > a {
+	cursor: pointer;
+}
+
+#preskills > a:hover {
+	text-decoration: underline;
+}
+
 .skills-info {
 	margin-top: 20px;
 }
@@ -386,7 +394,7 @@ tt.about-neofetch-info {
 	height: 100%;
 	overflow: auto;
 	background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 #Projects-btn {
@@ -424,7 +432,7 @@ tt.about-neofetch-info {
 .projects-container > h2 {
 	font-family: var(--bold);
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 25px;
 	font-size: 2.6rem;
 }
 
