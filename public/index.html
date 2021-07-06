@@ -56,7 +56,11 @@
 				if (window.screen.width <= 1149 ){
 
 					const nav = document.getElementById('navbar') 
-					nav.classList.toggle('active')
+
+					if (nav.classList.contains('active')) {
+						nav.classList.toggle('active')
+					}
+
 				}
 
 				projectModal.style.display = 'block'
