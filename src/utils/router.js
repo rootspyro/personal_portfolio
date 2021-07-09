@@ -1,12 +1,19 @@
 import Footer from '../pages/footer'
 import Routes from './routes'
+import projects from '../pages/projects'
+import projectsList from './projects-list'
 
 const Router = async () => {
-	//const header = null || document.getElementById('header')
 	const container = null || document.getElementById('main-container')
+	const project = null || document.getElementById('projects-list')
 	const footer = null || document.getElementById('footer')
 
+	project.innerHTML = ''
 	footer.innerHTML = Footer()
+	
+	for (let e of projectsList) {
+		project.innerHTML += projects(e.name, e.link, e.img, e.description, e.github)
+	}
 
 	let route = window.location.pathname
 

@@ -146,8 +146,14 @@ tt.about-neofetch-info {
 	width: 80%;
 }
 
+
 .projects-container > h2 {
 	font-size: 4rem;
+}
+
+.projects-list {
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
 
