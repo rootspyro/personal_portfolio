@@ -9,7 +9,6 @@ const Router = async () => {
 	const footer = null || document.getElementById('footer')
 
 	project.innerHTML = ''
-	footer.innerHTML = Footer()
 	
 	for (let e of projectsList) {
 		project.innerHTML += projects(e.name, e.link, e.img, e.description, e.github)
