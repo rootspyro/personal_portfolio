@@ -4,10 +4,10 @@ const Footer = () => {
 			<div class="Contact" id="Contact">
 				<p class=terminal-user>root@<span class="orange">spyro</span>:/Contact#<span class=command> node send_email.js<span id="contact-cursor">&#160</span></span></p>
 				<h1 class='contact-title orange'>LET'S TALK!</h1>
-				<form class="contact-form " id="contact-form" method="POST" name="contact" data-netlify="true" netlify> 
-					<input type="text" placeholder="//what's_your_name?" autocomplete="name" class="contact-form-input" id="contact-name" name=name required> 
+				<form class="contact-form " id="contact-form" method="POST" name="contact" netlify> 
+					<input type="text" placeholder="//what's_your_name?" autocomplete="name" class="contact-form-input" id="contact-name" name="name" required> 
 					<input type="email" placeholder="//what's_your_email?" autocomplete="email" class="contact-form-input" name="email" required>
-						<textarea class="contact-form-message" id="contact-message" placeholder="//Write_your_message" name=message required></textarea>
+						<textarea class="contact-form-message" id="contact-message" placeholder="//Write_your_message" name="message" required></textarea>
 					<button class="contact-form-button" id="contact-send" type=submit>>_Send_email</button>
 				</form>
 			</div>
