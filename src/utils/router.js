@@ -1,4 +1,3 @@
-import Footer from '../pages/footer'
 import Routes from './routes'
 import projects from '../pages/projects'
 import projectsList from './projects-list'
@@ -6,7 +5,6 @@ import projectsList from './projects-list'
 const Router = async () => {
 	const container = null || document.getElementById('main-container')
 	const project = null || document.getElementById('projects-list')
-	const footer = null || document.getElementById('footer')
 
 	project.innerHTML = ''
 	
