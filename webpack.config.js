@@ -43,6 +43,7 @@ module.exports = {
 				{from:"./src/styles/mobile.css", to: ''},
 				{from:"./src/styles/tablet.css", to: ''},
 				{from:"./src/styles/desktop.css", to: ''},
+				{from:"./src/img/ogimage.png", to: ''},
 			]
 		}),
 	],
