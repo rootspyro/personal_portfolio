@@ -53,44 +53,6 @@
 
 			</div>
 
-		<script>
-
-			function sProjects(){
-				const projectModal = document.getElementById('Projects')
-
-				if (window.screen.width <= 1149 ){
-
-					const nav = document.getElementById('navbar') 
-
-					if (nav.classList.contains('active')) {
-						nav.classList.toggle('active')
-					}
-
-				}
-
-				projectModal.style.display = 'block'
-				document.body.style.overflow = 'hidden'
-
-			}
-
-			function hProjects(){
-
-				const projectModal = document.getElementById('Projects')
-				projectModal.style.display = 'none'
-				document.body.style.overflowY = 'scroll'
-
-			}
-
-			document.getElementById('Projects-btn').addEventListener('click', ()=> {
-				sProjects()
-			})
-
-			document.getElementById('close').addEventListener('click', ()=> {
-				hProjects()			
-			})
-
-		</script>
-
 		</div>
 		<footer id="footer">
 
@@ -119,7 +81,43 @@
 				</div>
 			</div>
 		</footer>
-		
+		<script>
+
+		function sProjects(){
+			const projectModal = document.getElementById('Projects')
+
+			if (window.screen.width <= 1149 ){
+
+				const nav = document.getElementById('navbar') 
+
+				if (nav.classList.contains('active')) {
+					nav.classList.toggle('active')
+				}
+
+			}
+
+			projectModal.style.display = 'block'
+			document.body.style.overflow = 'hidden'
+
+		}
+
+		function hProjects(){
+
+			const projectModal = document.getElementById('Projects')
+			projectModal.style.display = 'none'
+			document.body.style.overflowY = 'scroll'
+
+		}
+
+		document.getElementById('Projects-btn').addEventListener('click', ()=> {
+			sProjects()
+		})
+
+		document.getElementById('close').addEventListener('click', ()=> {
+			hProjects()			
+		})
+
+	</script>
 
 	</body>
 </html>

@@ -23,6 +23,7 @@ window.addEventListener('scroll', ()=>{
 	animation.writeCommand('skills-cursor')
 	animation.turnOn('cards', 1.5)
 	animation.turnOn('skills-img', 1.5)
+	
 
 	//CONTACT
 	animation.writeCommand('contact-cursor')

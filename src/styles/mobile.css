@@ -410,6 +410,7 @@ tt.about-neofetch-info {
 	background-color: var(--dark-gray);
 	opacity: 100%;
 	border-radius: 20px;
+	animation: display 0.8s;
 }
 
 .projects-head > p {

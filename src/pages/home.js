@@ -47,7 +47,7 @@ const Home = () => {
 							root@<spam class="orange">spyro</spam><br>
 							----------<br>
 							<spam class="orange">Host:</spam>Spyridon Mihalopoulos</br>
-							<spam class="orange">Student:</spam>Computer Engineering</br>
+							<spam class="orange">Studies:</spam>Computer Engineering</br>
 							<spam class="orange">Developer:</spam>FullStack</br>
 							<spam class="orange">Frontend:</spam>40%</br>
 							<spam class="orange">Backend:</spam>60%</br>
