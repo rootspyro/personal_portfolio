@@ -588,13 +588,19 @@ button.contact-form-button:hover{
 	margin: 0% 5% 0% 5%;
 }
 
-.contact-info-email {
+.contact-info-email a {
 	margin-bottom: 20px;	
 	font-weight: bold;
 	font-style: italic;
 	font-size: 1.6rem;
 	color: var(--light-gray);
 	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.contact-info-email a:hover {
+	text-decoration: underline;
 }
 
 .contact-info-socialmedia > ul {

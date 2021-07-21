@@ -183,7 +183,7 @@ button.contact-form-button{
 	font-size: 1.8rem;
 }
 
-.contact-info-email{
+.contact-info-email a {
 	font-size: 1.8rem;
 	text-align: right;
 	margin-top: 1%;
