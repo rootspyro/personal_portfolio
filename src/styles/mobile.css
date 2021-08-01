@@ -280,6 +280,7 @@ tt.about-neofetch-info {
 	color: var(--dark);
 	border-radius: 15px;	font-weight: bold;
 	padding: 15px 20px 15px 20px;
+	cursor: pointer;
 }
 
 .about-story a:hover {

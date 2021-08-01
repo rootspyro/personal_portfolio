@@ -63,7 +63,7 @@ const Home = () => {
 							I love to learn, constantly improve my skills, solve problems and create solutions through technology. And for that reason, I want to help you achieve your goals.
 						</p>
 
-						<a href="#Skills">See_my_experience</a>
+						<a onclick='sProjects()'>Look_my_projects</a>
 					</div>
 				</div>
 			</div>
