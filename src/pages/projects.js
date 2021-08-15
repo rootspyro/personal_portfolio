@@ -5,12 +5,12 @@ const projects = (name, link, img, description, github) => {
 					<div class="project-box">
 						<div class="project-border">
 							<div class="project-box-img">
-								<a href="${link}">
+								<a href="${link}" target="_blank">
 									<img src="${img}" >
 								</a>
 							</div>
 							<div class="project-box-description">
-								<p class= "project-name orange">${name}</p>
+								<p class= "project-name orange"><a href="${link}" target="_blank">${name}</a></p>
 								<br>
 								<p>${description}</p>
 							</div>
