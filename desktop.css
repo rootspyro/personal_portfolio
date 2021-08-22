@@ -132,16 +132,6 @@ tt.about-neofetch-info {
 	margin-right: 0%;
 }
 
-.skills-img {
-	margin-left:0;
-	padding: 0%;
-}
-
-.skills-img  img {
-	max-width: 380px;
-	max-height: 420px;
-}
-
 .projects-container {
 	width: 80%;
 }

@@ -17,6 +17,7 @@
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 
@@ -28,10 +29,15 @@ body {
 	color: var(--light-gray);
 	font-family: var(--font), sans-serif;
 	outline: none;
+	overflow-x:hidden;
 }
 
 .orange {
 	color: var(--orange);
+}
+
+.strong{
+	font-weight: bold;
 }
 
 .terminal-user {
@@ -334,7 +340,7 @@ tt.about-neofetch-info {
 	opacity: 0;
 }
 
-.skills-backend , .skills-frontend {
+.skills-backend , .skills-frontend, .skills-json {
 	/*border: var(--orange) 1px solid;*/
 	margin-top: 25px ;
 	padding: 20px;
@@ -345,12 +351,26 @@ tt.about-neofetch-info {
 	box-shadow: var(--dark) 5px 5px 6px;
 }
 
-.skills-img {
-	margin-left: 5%;
-	margin-right: 5%;
+.skills-json {
+	font-size: 1.3rem;
+	opacity: 0;
 }
 
-.skills-frontend-title, .skills-backend-title {
+pre {
+	margin: 0%;
+	padding: 0%;
+	width: 20%;
+	display: block;
+}
+
+code {
+	padding: 0%;
+	margin-right: 0%;
+	display: inline;
+}
+
+
+.skills-card-title {
 	font-size: 1.6rem;	
 	margin-bottom: 15px;
 }
@@ -360,26 +380,7 @@ tt.about-neofetch-info {
 	font-size: 1.7rem;
 }
 
-.skills-img {
-	margin-top: 25px;
-	display: flex;
-	justify-content: center;
-	box-sizing: border-box;
-	opacity: 0%;
-}
 
-.skills-img img{
-	padding: 0%;
-	margin: 0%;
-	border: var(--orange) solid 1px;	
-	border-radius: 25px;
-	width: 100%;
-	max-height: 430px;
-	/*min-height: 300px;*/
-	/*max-height: 620px;*/
-	box-shadow: var(--dark) 5px 5px 6px;
-
-}
 
 
 /* PROJECTS MODEAL */
@@ -468,6 +469,15 @@ tt.about-neofetch-info {
 .project-name {
 	font-weight: bold;
 	font-size: 2rem;
+}
+
+.project-name > a {
+	color: var(--light-gray);
+	text-decoration: none;
+}
+
+.project-name > a:hover{
+	text-decoration: underline;
 }
 
 .github-project-btn {
@@ -587,21 +597,6 @@ button.contact-form-button:hover{
 .contact-info-socialmedia {
 	border-top: 1.5px solid var(--orange);
 	margin: 0% 5% 0% 5%;
-}
-
-.contact-info-email a {
-	margin-bottom: 20px;	
-	font-weight: bold;
-	font-style: italic;
-	font-size: 1.6rem;
-	color: var(--light-gray);
-	text-align: center;
-	text-decoration: none;
-	display: block;
-}
-
-.contact-info-email a:hover {
-	text-decoration: underline;
 }
 
 .contact-info-socialmedia > ul {
