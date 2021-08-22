@@ -1,7 +1,6 @@
 import profileimg from '../img/Perfil-final.png'
 import background from '../img/homeBack.jpg'
 import face from '../img/Face.jpg'
-import skills from '../img/carbon.png'
 const Home = () => {
 	const view = `
 
@@ -46,12 +45,12 @@ const Home = () => {
 						<tt class="about-neofetch-info">
 							root@<spam class="orange">spyro</spam><br>
 							----------<br>
-							<spam class="orange">Host:</spam>Spyridon Mihalopoulos</br>
-							<spam class="orange">Studies:</spam>Computer Engineering</br>
-							<spam class="orange">Developer:</spam>FullStack</br>
-							<spam class="orange">Frontend:</spam>40%</br>
-							<spam class="orange">Backend:</spam>60%</br>
-							<spam class="orange">Citizenship:</spam>Venezuelan</br>
+							<span class="orange">Host:</span>Spyridon Mihalopoulos</br>
+							<span class="orange">Studies:</span>Computer Engineering</br>
+							<span class="orange">Developer:</span>FullStack</br>
+							<span class="orange">Frontend:</span>40%</br>
+							<span class="orange">Backend:</span>60%</br>
+							<span class="orange">Citizenship:</span>Venezuelan</br>
 						</tt>
 						</div>
 					</div>
@@ -80,7 +79,7 @@ const Home = () => {
 				<div class="skills-info">	
 				<div class="skills-cards" id=cards>
 					<div class="skills-frontend" id="skills-frontend">
-						<h3 class="skills-frontend-title orange">//FRONTEND</h3>
+						<h3 class="skills-card-title orange">//FRONTEND</h3>
 						<div class="skills-languages">
 							<i class="fab fa-html5 orange"></i>
 							<i class="fab fa-css3-alt orange"></i>
@@ -92,7 +91,7 @@ const Home = () => {
 						<p>
 					</div>
 					<div class="skills-backend" id="skills-backend">
-						<h3 class="skills-backend-title orange">//BACKEND</h3>
+						<h3 class="skills-card-title orange">//BACKEND</h3>
 						<div class="skills-languages">
 							<i class="fab fa-node-js orange"></i>
 							<i class="fab fa-python orange"></i>
@@ -103,11 +102,32 @@ const Home = () => {
 							Today, I am geared towards backend development with Node and Python (Flask and Django), using relational databases servers like MySQL and NoSQL like MongoDB. I also have experience developing in Linux environments and am familiar with Rest architecture APIs. 
 						</p>
 					</div>
-					</div>
-					<div class="skills-img" id="skills-img">
-						<a href="${skills}">
-						<img src="${skills}" alt="screenshot de codigo en json">
-						</a>
+				</div>
+				<div class="skills-json" id="json">
+						<h3>root@<span class="orange">spyro</span>:~# cat Skills.json</h3>
+						<pre>
+							<code>
+
+ {
+  <span class="orange strong">"Skills"</span> : {
+    <span class="orange strong">"Linux / Terminal"</span> : "85%",
+    <span class="orange strong">"Git"</span> : "70%",
+    <span class="orange strong">"API"</span> : "Rest",
+    <span class="orange strong">"Languages"</span> : {
+     <span class="orange strong">"Javascript"</span> : "65%",
+     <span class="orange strong">"Python"</span> : "70%",
+     <span class="orange strong">"Html / Css"</span> : "70%",
+      <span class="orange strong">"SQL"</span> : "55%"
+  },
+   <span class="orange strong">"Frameworks"</span> : {
+    <span class="orange strong">"Node / Express"</span> : "40%"
+    <span class="orange strong">"Flask"</span> : "40%",
+    <span class="orange strong">"React"</span> : "WIP"
+   }
+  }
+ }
+							</code>
+						</pre>
 					</div>
 				</div>
 			</div>

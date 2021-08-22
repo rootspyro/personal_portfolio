@@ -38,18 +38,24 @@ tt.about-neofetch-info{
 }
 
 .skills-info > div{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-.skills-img {
-	padding-left: 5%;
-	padding-right: 5%;
+.skills-json {
+	font-size: 1.4rem;
+	margin-left:15% !important;
+	margin-right:15% !important;
 }
 
-.skills-img  img{
-	max-width: 460px;
-	max-height: 480px;
+pre {
+	width: 40%;
+	display: flex;
+}
+
+code {
+	display: inline-block;
+	width: 20%;
 }
 
 .projects-container {
