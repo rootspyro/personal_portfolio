@@ -17,7 +17,6 @@
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
-	overflow-x: hidden;
 }
 
 
@@ -75,7 +74,6 @@ header {
 	margin: 0%;
 	padding: 0%;
 	background-color: #1f1f1f;
-	opacity: 90%;
 	z-index: 1;
 	width: 100vw;
 	position: fixed;
@@ -351,22 +349,27 @@ tt.about-neofetch-info {
 	box-shadow: var(--dark) 5px 5px 6px;
 }
 
+.json-container{
+	display: flex;
+	justify-content: center;
+}
+
 .skills-json {
 	font-size: 1.3rem;
 	opacity: 0;
-}
-
-pre {
-	margin: 0%;
-	padding: 0%;
-	width: 20%;
+	border: 2px var(--orange) solid;
+	max-width: 390px;
+	min-width: 260px;
 	display: block;
 }
 
+pre{
+	display: flex;
+}
+
 code {
-	padding: 0%;
-	margin-right: 0%;
-	display: inline;
+		display: inline;
+		width: 1%;
 }
 
 

@@ -103,31 +103,33 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
+				<div class="json-container">
 				<div class="skills-json" id="json">
 						<h3>root@<span class="orange">spyro</span>:~# cat Skills.json</h3>
 						<pre>
 							<code>
 
  {
-  <span class="orange strong">"Skills"</span> : {
-    <span class="orange strong">"Linux / Terminal"</span> : "85%",
-    <span class="orange strong">"Git"</span> : "70%",
-    <span class="orange strong">"API"</span> : "Rest",
-    <span class="orange strong">"Languages"</span> : {
-     <span class="orange strong">"Javascript"</span> : "65%",
-     <span class="orange strong">"Python"</span> : "70%",
-     <span class="orange strong">"Html / Css"</span> : "70%",
-      <span class="orange strong">"SQL"</span> : "55%"
-  },
-   <span class="orange strong">"Frameworks"</span> : {
-    <span class="orange strong">"Node / Express"</span> : "40%"
-    <span class="orange strong">"Flask"</span> : "40%",
-    <span class="orange strong">"React"</span> : "WIP"
+   <span class="orange strong">"Skills"</span> : {
+     <span class="orange strong">"Linux / Terminal"</span> : "85%",
+     <span class="orange strong">"Git"</span> : "70%",
+     <span class="orange strong">"API"</span> : "Rest",
+     <span class="orange strong">"Languages"</span> : {
+       <span class="orange strong">"Javascript"</span> : "65%",
+       <span class="orange strong">"Python"</span> : "70%",
+       <span class="orange strong">"Html / Css"</span> : "70%",
+       <span class="orange strong">"SQL"</span> : "55%"
+     },
+     <span class="orange strong">"Frameworks"</span> : {
+       <span class="orange strong">"Node / Express"</span> : "40%"
+       <span class="orange strong">"Flask"</span> : "40%",
+       <span class="orange strong">"React"</span> : "WIP"
+     }
    }
-  }
  }
 							</code>
 						</pre>
+					</div>
 					</div>
 				</div>
 			</div>
