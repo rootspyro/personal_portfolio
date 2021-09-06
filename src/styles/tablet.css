@@ -46,6 +46,7 @@ tt.about-neofetch-info{
 	font-size: 1.4rem;
 	margin-left:15% !important;
 	margin-right:15% !important;
+	min-width: 360px;
 }
 
 pre {
@@ -54,6 +55,7 @@ pre {
 
 code {
 	display: inline-block;
+	margin-left: 3.5rem;
 }
 
 .projects-container {

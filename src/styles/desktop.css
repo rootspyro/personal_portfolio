@@ -1,3 +1,4 @@
+
 .burger-menu{
 	display: none;
 }
@@ -130,6 +131,16 @@ tt.about-neofetch-info {
 .skills-backend, .skills-frontend {
 	margin-left: 0%;
 	margin-right: 0%;
+}
+
+.skills-json {
+	padding: 25px 30px 25px 30px;
+	max-width: 420px;
+	min-width: 400px;
+}
+
+code {
+	margin-left: 4.5rem;
 }
 
 .projects-container {

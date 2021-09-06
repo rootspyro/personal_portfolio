@@ -28,7 +28,7 @@ body {
 	color: var(--light-gray);
 	font-family: var(--font), sans-serif;
 	outline: none;
-	overflow-x:hidden;
+	overflow-x: hidden ;
 }
 
 .orange {
@@ -618,4 +618,18 @@ button.contact-form-button:hover{
 	text-decoration: none;
 	color: var(--orange);
 	font-size: 2.5rem;
+}
+
+
+@media (max-width:600px) {
+
+	html {
+		
+		overflow-x: hidden;
+	}
+
+	body {
+		overflow-x:hidden;
+	}
+
 }

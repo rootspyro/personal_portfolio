@@ -3,6 +3,8 @@ import animation from './utils/animations'
 import HideNav from './utils/hideNav'
 
 
+document.body.style.overscrollBehaviorX = "hidden"
+
 window.addEventListener('load', ()=> {
 	Router()
 })
